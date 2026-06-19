@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Corporate Website</title>
+<title>GDH Logistics</title>
 
 <style>
 *{
@@ -26,8 +26,8 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 50px;
-    background:rgba(0,0,0,0.7);
+    padding:15px 40px;
+    background:rgba(0,0,0,0.75);
     z-index:1000;
 }
 
@@ -39,6 +39,7 @@ nav a{
     color:white;
     text-decoration:none;
     margin-left:20px;
+    font-size:14px;
 }
 
 nav a:hover{
@@ -53,7 +54,7 @@ nav a:hover{
     align-items:center;
     justify-content:center;
     text-align:center;
-    padding-top:80px;
+    position:relative;
 }
 
 .hero::before{
@@ -72,11 +73,12 @@ nav a:hover{
 }
 
 .hero h1{
-    font-size:48px;
+    font-size:50px;
+    margin-bottom:10px;
 }
 
 .hero p{
-    margin-top:10px;
+    font-size:18px;
     opacity:0.9;
 }
 
@@ -87,16 +89,33 @@ nav a:hover{
     border:none;
     cursor:pointer;
     font-weight:bold;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#0ea5e9;
 }
 
 /* SECTIONS */
 section{
-    padding:80px 50px;
+    padding:80px 40px;
     text-align:center;
 }
 
 section h2{
     margin-bottom:15px;
+    color:#38bdf8;
+}
+
+section p{
+    max-width:800px;
+    margin:0 auto;
+    line-height:1.6;
+}
+
+/* CONTACT LINKS */
+a{
+    color:#38bdf8;
 }
 
 </style>
@@ -104,9 +123,10 @@ section h2{
 
 <body>
 
+<!-- HEADER -->
 <header>
     <div class="logo">
-        <img src="logo.png" alt="logo">
+        <img src="logo.png" alt="Logo">
     </div>
 
     <nav>
@@ -120,8 +140,8 @@ section h2{
 <!-- HERO -->
 <section class="hero" id="home">
     <div class="hero-content">
-        <h1>Welcome to Our Company</h1>
-        <p>We deliver quality and trust worldwide</p>
+        <h1>GDH Logistics</h1>
+        <p>Safe • Fast • Reliable Global Delivery</p>
         <button class="btn">Get Started</button>
     </div>
 </section>
@@ -129,19 +149,27 @@ section h2{
 <!-- ABOUT -->
 <section id="about">
     <h2>About Us</h2>
-    <p>We are a modern corporate organization providing global solutions.</p>
+    <p>
+        We are a professional logistics and distribution company providing safe, fast and reliable global transport solutions.
+    </p>
 </section>
 
 <!-- SERVICES -->
 <section id="services">
     <h2>Our Services</h2>
-    <p>Logistics, Supply Chain, Distribution & More</p>
+    <p>
+        Freight Transport • Warehousing • Supply Chain Management • Global Distribution
+    </p>
 </section>
 
 <!-- CONTACT -->
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: info@company.com | Phone: +880XXXXXXXXX</p>
+    <p>
+        Email: info@gdh.com <br>
+        Phone: <a href="tel:01713366224">01713366224</a> <br>
+        WhatsApp: <a href="https://wa.me/8801713366224" target="_blank">Chat with us</a>
+    </p>
 </section>
 
 </body>
