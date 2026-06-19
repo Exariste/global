@@ -3,89 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Distribution House | Premium Logistics</title>
+    <title>Global Distribution House | Premium Corporate</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <style>
-        .hero-gradient { background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(37, 99, 235, 0.7)); }
-    </style>
 </head>
-<body class="bg-gray-50 text-slate-900">
+<body class="bg-white text-slate-900">
 
-    <nav class="flex justify-between items-center px-10 py-6 bg-white shadow-md sticky top-0 z-50">
-        <img src="20260617_025723.jpg" alt="Logo" class="h-14">
-        <div class="hidden lg:flex space-x-8 font-bold text-slate-700">
-            <a href="#home" class="hover:text-blue-600 transition">Home</a>
-            <a href="#about" class="hover:text-blue-600 transition">About</a>
-            <a href="#services" class="hover:text-blue-600 transition">Services</a>
-            <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
-            <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-50">
+        <img src="20260617_025723.jpg" alt="Logo" class="h-12">
+        <div class="hidden md:flex space-x-6 font-bold text-slate-800">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
         </div>
-        <a href="#partner" class="bg-orange-500 text-white px-6 py-2 rounded-full font-bold hover:bg-orange-600">Become a Partner</a>
+        <a href="#partner" class="bg-orange-500 text-white px-5 py-2 rounded font-bold">Become a Partner</a>
     </nav>
 
-    <header id="home" class="relative h-[85vh] flex items-center text-white hero-gradient bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1580674285054-c3e031a0808a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');">
-        <div class="max-w-4xl px-10">
-            <h1 class="text-6xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
-            <p class="text-2xl mb-8 font-light">Connecting Brands, Delivering Excellence. Reliable supply chain network across Bangladesh.</p>
-            <div class="flex gap-4">
-                <a href="#services" class="bg-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-700">Explore Services</a>
-            </div>
+    <!-- Hero Section -->
+    <header id="home" class="relative py-24 bg-blue-900 text-white text-center">
+        <div class="max-w-4xl mx-auto px-6">
+            <h1 class="text-5xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
+            <p class="text-xl mb-8 text-blue-100">Connecting Brands, Delivering Excellence. Reliable supply chain network across Bangladesh.</p>
+            <a href="#services" class="bg-blue-600 px-8 py-3 rounded font-bold hover:bg-blue-700">Explore Services</a>
         </div>
     </header>
 
-    <section class="py-20 px-10 max-w-7xl mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-16">Why Choose Us?</h2>
-        <div class="grid md:grid-cols-4 gap-8">
-            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-blue-600">
-                <i class="fas fa-truck-fast text-4xl text-blue-600 mb-4"></i>
-                <h3 class="font-bold text-xl mb-2">Timely Delivery</h3>
-                <p class="text-gray-600">Fast and efficient logistics.</p>
+    <!-- Why Choose Us -->
+    <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-12">Why Choose Us?</h2>
+        <div class="grid md:grid-cols-4 gap-6">
+            <div class="p-6 bg-slate-100 rounded text-center">
+                <h3 class="font-bold text-lg mb-2">Timely Delivery</h3>
+                <p class="text-sm text-gray-600">Fast and efficient logistics.</p>
             </div>
-            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-orange-500">
-                <i class="fas fa-shield-halved text-4xl text-orange-500 mb-4"></i>
-                <h3 class="font-bold text-xl mb-2">Trusted Partner</h3>
-                <p class="text-gray-600">Strong business relationships.</p>
+            <div class="p-6 bg-slate-100 rounded text-center">
+                <h3 class="font-bold text-lg mb-2">Trusted Partner</h3>
+                <p class="text-sm text-gray-600">Strong business relationships.</p>
             </div>
-            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-blue-600">
-                <i class="fas fa-globe text-4xl text-blue-600 mb-4"></i>
-                <h3 class="font-bold text-xl mb-2">Wide Network</h3>
-                <p class="text-gray-600">Extensive reach in Bangladesh.</p>
+            <div class="p-6 bg-slate-100 rounded text-center">
+                <h3 class="font-bold text-lg mb-2">Wide Network</h3>
+                <p class="text-sm text-gray-600">Extensive reach in Bangladesh.</p>
             </div>
-            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-orange-500">
-                <i class="fas fa-user-tie text-4xl text-orange-500 mb-4"></i>
-                <h3 class="font-bold text-xl mb-2">Professional</h3>
-                <p class="text-gray-600">Dedicated expert team.</p>
+            <div class="p-6 bg-slate-100 rounded text-center">
+                <h3 class="font-bold text-lg mb-2">Professional</h3>
+                <p class="text-sm text-gray-600">Dedicated expert team.</p>
             </div>
         </div>
     </section>
 
-    <section id="partner" class="py-20 bg-slate-900 text-white">
-        <div class="max-w-4xl mx-auto px-10">
-            <h2 class="text-4xl font-bold text-center mb-12">Partner With Us</h2>
-            <form class="grid md:grid-cols-2 gap-6">
-                <input type="text" placeholder="Company Name" class="p-4 rounded text-slate-900">
-                <input type="text" placeholder="Contact Person" class="p-4 rounded text-slate-900">
-                <input type="tel" placeholder="Phone Number" class="p-4 rounded text-slate-900">
-                <input type="email" placeholder="Email Address" class="p-4 rounded text-slate-900">
-                <textarea placeholder="Message" class="md:col-span-2 p-4 rounded h-32 text-slate-900"></textarea>
-                <button class="md:col-span-2 bg-orange-500 py-4 rounded font-bold text-xl">Submit Inquiry</button>
+    <!-- Contact Form -->
+    <section id="partner" class="py-20 bg-slate-900 text-white px-6">
+        <div class="max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold mb-8 text-center">Partner With Us</h2>
+            <form class="space-y-4">
+                <input type="text" placeholder="Company Name" class="w-full p-3 rounded text-slate-900">
+                <input type="email" placeholder="Email Address" class="w-full p-3 rounded text-slate-900">
+                <textarea placeholder="Message" class="w-full p-3 rounded h-32 text-slate-900"></textarea>
+                <button class="w-full bg-orange-500 py-3 rounded font-bold text-lg">Submit Inquiry</button>
             </form>
         </div>
     </section>
 
-    <footer id="contact" class="py-16 bg-white border-t text-center">
-        <h2 class="text-2xl font-bold mb-4">GLOBAL DISTRIBUTION HOUSE</h2>
-        <p class="text-gray-600 mb-6">Panti, Kushtia, Bangladesh | info@exariste.com | 01713-366224</p>
-        <div class="space-x-6 text-2xl">
-            <a href="#" class="text-blue-600"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="text-blue-400"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <p class="mt-8 text-gray-500">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</p>
+    <!-- Footer -->
+    <footer id="contact" class="py-12 text-center bg-gray-100">
+        <p class="font-bold text-lg">GLOBAL DISTRIBUTION HOUSE</p>
+        <p class="text-gray-600">Panti, Kushtia | 01713-366224</p>
+        <p class="mt-4 text-sm text-gray-500">© 2026 GLOBAL DISTRIBUTION HOUSE.</p>
     </footer>
 
-    <a href="https://wa.me/8801713366224" class="fixed bottom-10 right-10 z-50 text-5xl text-green-500">
-        <i class="fab fa-whatsapp-square"></i>
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/8801713366224" class="fixed bottom-6 right-6 z-50 text-5xl text-green-500">
+        🟢
     </a>
 </body>
 </html>
