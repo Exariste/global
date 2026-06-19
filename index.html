@@ -3,96 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Distribution House | Connecting Brands, Delivering Excellence</title>
+    <title>Global Distribution House | Premium Logistics</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: { extend: { colors: { royal: '#2563EB', navy: '#0F172A', accent: '#F97316' } } }
-        }
-    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient { background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(37, 99, 235, 0.7)); }
+    </style>
 </head>
-<body class="bg-white text-navy font-sans">
+<body class="bg-gray-50 text-slate-900">
 
-    <nav class="sticky top-0 bg-white shadow-lg z-50 px-10 py-5 flex justify-between items-center">
-        <img src="20260617_025723.jpg" alt="GDH Logo" class="h-12">
-        <div class="hidden md:flex space-x-8 font-bold">
-            <a href="#home" class="hover:text-royal">Home</a>
-            <a href="#about" class="hover:text-royal">About</a>
-            <a href="#services" class="hover:text-royal">Services</a>
-            <a href="#partner" class="hover:text-royal">Partner</a>
-            <a href="#contact" class="hover:text-royal">Contact</a>
+    <nav class="flex justify-between items-center px-10 py-6 bg-white shadow-md sticky top-0 z-50">
+        <img src="20260617_025723.jpg" alt="Logo" class="h-14">
+        <div class="hidden lg:flex space-x-8 font-bold text-slate-700">
+            <a href="#home" class="hover:text-blue-600 transition">Home</a>
+            <a href="#about" class="hover:text-blue-600 transition">About</a>
+            <a href="#services" class="hover:text-blue-600 transition">Services</a>
+            <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
+            <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
         </div>
+        <a href="#partner" class="bg-orange-500 text-white px-6 py-2 rounded-full font-bold hover:bg-orange-600">Become a Partner</a>
     </nav>
 
-    <header id="home" class="relative h-screen flex items-center justify-center text-center text-white bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8317d?auto=format&fit=crop&w=1600&q=80');">
-        <div class="absolute inset-0 bg-navy bg-opacity-70"></div>
-        <div class="relative z-10 px-6">
-            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
-            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Connecting Brands, Delivering Excellence. We bridge leading brands with retailers through a trusted supply chain.</p>
-            <div class="space-x-4">
-                <a href="#partner" class="bg-accent px-8 py-4 rounded-lg font-bold hover:bg-orange-600 transition">Become a Partner</a>
-                <a href="#contact" class="bg-white text-navy px-8 py-4 rounded-lg font-bold hover:bg-gray-200 transition">Contact Us</a>
+    <header id="home" class="relative h-[85vh] flex items-center text-white hero-gradient bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1580674285054-c3e031a0808a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');">
+        <div class="max-w-4xl px-10">
+            <h1 class="text-6xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
+            <p class="text-2xl mb-8 font-light">Connecting Brands, Delivering Excellence. Reliable supply chain network across Bangladesh.</p>
+            <div class="flex gap-4">
+                <a href="#services" class="bg-blue-600 px-8 py-4 rounded-lg font-bold hover:bg-blue-700">Explore Services</a>
             </div>
         </div>
     </header>
 
-    <section id="stats" class="py-16 bg-royal text-white">
-        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div><h3 class="text-4xl font-bold">20+</h3><p>Brand Partners</p></div>
-            <div><h3 class="text-4xl font-bold">500+</h3><p>Retail Shops</p></div>
-            <div><h3 class="text-4xl font-bold">10+</h3><p>Years Experience</p></div>
-            <div><h3 class="text-4xl font-bold">50k+</h3><p>Monthly Deliveries</p></div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20 max-w-6xl mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center mb-16 text-royal">What We Do</h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="p-6 border-b-4 border-accent shadow-lg rounded">
-                <h3 class="font-bold text-xl mb-2">Distribution</h3>
-                <p>Fast and reliable product distribution to retailers.</p>
+    <section class="py-20 px-10 max-w-7xl mx-auto">
+        <h2 class="text-4xl font-bold text-center mb-16">Why Choose Us?</h2>
+        <div class="grid md:grid-cols-4 gap-8">
+            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-blue-600">
+                <i class="fas fa-truck-fast text-4xl text-blue-600 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Timely Delivery</h3>
+                <p class="text-gray-600">Fast and efficient logistics.</p>
             </div>
-            <div class="p-6 border-b-4 border-accent shadow-lg rounded">
-                <h3 class="font-bold text-xl mb-2">Inventory Management</h3>
-                <p>Efficient warehouse and stock management.</p>
+            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-orange-500">
+                <i class="fas fa-shield-halved text-4xl text-orange-500 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Trusted Partner</h3>
+                <p class="text-gray-600">Strong business relationships.</p>
             </div>
-            <div class="p-6 border-b-4 border-accent shadow-lg rounded">
-                <h3 class="font-bold text-xl mb-2">Dealer Management</h3>
-                <p>Building strong dealer and retailer relationships.</p>
+            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-blue-600">
+                <i class="fas fa-globe text-4xl text-blue-600 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Wide Network</h3>
+                <p class="text-gray-600">Extensive reach in Bangladesh.</p>
             </div>
-            <div class="p-6 border-b-4 border-accent shadow-lg rounded">
-                <h3 class="font-bold text-xl mb-2">Sales Support</h3>
-                <p>Brand promotion and sales growth support.</p>
+            <div class="text-center p-8 bg-white shadow-xl rounded-xl border-t-4 border-orange-500">
+                <i class="fas fa-user-tie text-4xl text-orange-500 mb-4"></i>
+                <h3 class="font-bold text-xl mb-2">Professional</h3>
+                <p class="text-gray-600">Dedicated expert team.</p>
             </div>
         </div>
     </section>
 
-    <section id="partner" class="py-20 bg-gray-100">
-        <div class="max-w-3xl mx-auto px-6">
-            <h2 class="text-4xl font-bold text-center mb-12 text-royal">Partner With Us</h2>
-            <form class="bg-white p-10 rounded shadow-xl">
-                <div class="grid md:grid-cols-2 gap-6 mb-6">
-                    <input type="text" placeholder="Company Name" class="p-4 border rounded w-full">
-                    <input type="text" placeholder="Contact Person" class="p-4 border rounded w-full">
-                </div>
-                <input type="email" placeholder="Email Address" class="p-4 border rounded w-full mb-6">
-                <textarea placeholder="Message" class="p-4 border rounded w-full mb-6 h-32"></textarea>
-                <button class="w-full bg-navy text-white py-4 rounded font-bold hover:bg-royal transition">Submit Inquiry</button>
+    <section id="partner" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-10">
+            <h2 class="text-4xl font-bold text-center mb-12">Partner With Us</h2>
+            <form class="grid md:grid-cols-2 gap-6">
+                <input type="text" placeholder="Company Name" class="p-4 rounded text-slate-900">
+                <input type="text" placeholder="Contact Person" class="p-4 rounded text-slate-900">
+                <input type="tel" placeholder="Phone Number" class="p-4 rounded text-slate-900">
+                <input type="email" placeholder="Email Address" class="p-4 rounded text-slate-900">
+                <textarea placeholder="Message" class="md:col-span-2 p-4 rounded h-32 text-slate-900"></textarea>
+                <button class="md:col-span-2 bg-orange-500 py-4 rounded font-bold text-xl">Submit Inquiry</button>
             </form>
         </div>
     </section>
 
-    <footer id="contact" class="bg-navy text-white py-16 text-center">
-        <h2 class="text-3xl font-bold mb-8">GLOBAL DISTRIBUTION HOUSE</h2>
-        <div class="mb-8">
-            <p>📍 Panti, Kushtia, Bangladesh</p>
-            <p>✉ info@exariste.com | 📞 +880 1713-366224</p>
+    <footer id="contact" class="py-16 bg-white border-t text-center">
+        <h2 class="text-2xl font-bold mb-4">GLOBAL DISTRIBUTION HOUSE</h2>
+        <p class="text-gray-600 mb-6">Panti, Kushtia, Bangladesh | info@exariste.com | 01713-366224</p>
+        <div class="space-x-6 text-2xl">
+            <a href="#" class="text-blue-600"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-blue-400"><i class="fab fa-linkedin"></i></a>
         </div>
-        <div class="text-gray-400">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</div>
+        <p class="mt-8 text-gray-500">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</p>
     </footer>
 
-    <a href="https://wa.me/8801713366224" target="_blank" class="fixed bottom-8 right-8 bg-green-500 text-white p-4 rounded-full shadow-2xl z-50 hover:scale-110 transition">
-        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.591 5.52 0 10.02-4.5 10.02-10.02s-4.5-10.02-10.02-10.02-10.02 4.5-10.02 10.02c0 2.091.599 3.841 1.597 5.392l-1.12 4.087 4.148-1.087z"/></svg>
+    <a href="https://wa.me/8801713366224" class="fixed bottom-10 right-10 z-50 text-5xl text-green-500">
+        <i class="fab fa-whatsapp-square"></i>
     </a>
 </body>
 </html>
