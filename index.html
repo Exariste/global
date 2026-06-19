@@ -3,58 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Distribution House</title>
+    <title>Global Distribution House | Professional Logistics</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-50">
+<body class="bg-white text-gray-800">
 
-    <!-- Header Section -->
-    <nav class="sticky top-0 bg-white shadow-md z-50 px-6 py-4 flex justify-between items-center">
-        <img src="20260617_025723.jpg" alt="Logo" class="h-12">
-        <div class="hidden md:flex space-x-6 font-bold text-gray-800">
-            <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a>
+    <!-- Navbar -->
+    <nav class="sticky top-0 bg-white border-b z-50 flex justify-between items-center px-10 py-4">
+        <img src="20260617_025723.jpg" class="h-10">
+        <div class="hidden md:flex space-x-8 font-semibold">
+            <a href="#home" class="hover:text-blue-700">Home</a>
+            <a href="#about" class="hover:text-blue-700">About</a>
+            <a href="#services" class="hover:text-blue-700">Services</a>
+            <a href="#contact" class="hover:text-blue-700">Contact</a>
         </div>
-        <a href="#partner" class="bg-orange-500 text-white px-5 py-2 rounded font-bold">Become a Partner</a>
+        <a href="#partner" class="bg-orange-500 text-white px-6 py-2 rounded font-bold hover:bg-orange-600">Join Us</a>
     </nav>
 
-    <!-- Main Content -->
-    <header id="home" class="py-20 bg-blue-900 text-white text-center">
-        <h1 class="text-4xl font-extrabold mb-4">GLOBAL DISTRIBUTION HOUSE</h1>
-        <p class="text-lg">Connecting Brands, Delivering Excellence.</p>
+    <!-- Hero Section -->
+    <header id="home" class="bg-blue-900 text-white py-24 text-center">
+        <h1 class="text-5xl font-extrabold mb-4">GLOBAL DISTRIBUTION HOUSE</h1>
+        <p class="text-xl opacity-90">Connecting Brands, Delivering Excellence.</p>
     </header>
 
-    <section id="about" class="py-16 px-6 max-w-4xl mx-auto text-center">
-        <h2 class="text-2xl font-bold mb-4">Who We Are</h2>
-        <p>GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh.</p>
-    </section>
+    <!-- Content Sections -->
+    <main class="max-w-6xl mx-auto px-6 py-16 space-y-16">
+        <section id="about">
+            <h2 class="text-3xl font-bold mb-6">Who We Are</h2>
+            <p class="text-lg leading-relaxed">GLOBAL DISTRIBUTION HOUSE is a premier distribution partner in Kushtia, Bangladesh, committed to excellence in supply chain management.</p>
+        </section>
 
-    <!-- Footer - আপনার চাহিদা অনুযায়ী সাজানো -->
-    <footer id="contact" class="bg-[#0F172A] text-white py-12 px-6 mt-10">
-        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <section id="services" class="grid md:grid-cols-4 gap-6">
+            <div class="p-6 border rounded hover:shadow-lg transition">Distribution</div>
+            <div class="p-6 border rounded hover:shadow-lg transition">Inventory</div>
+            <div class="p-6 border rounded hover:shadow-lg transition">Dealer Mgmt</div>
+            <div class="p-6 border rounded hover:shadow-lg transition">Sales Support</div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#0F172A] text-white py-16 px-10">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-12">
             <div>
-                <img src="20260617_025723.jpg" alt="Logo" class="h-16 mb-4 bg-white p-1 rounded">
-                <p class="text-sm text-gray-300">GLOBAL DISTRIBUTION HOUSE বিশ্বাসযোগ্যতা এবং গুণগত মান বজায় রেখে পণ্য পৌঁছে দিচ্ছে প্রতিটি ঘরে।</p>
+                <img src="20260617_025723.jpg" class="h-16 mb-4 bg-white p-1 rounded">
+                <p class="text-sm text-gray-400">বিশ্বস্ততা এবং গুণগত মান বজায় রেখে পণ্য পৌঁছে দিচ্ছে প্রতিটি ঘরে।</p>
             </div>
             <div>
-                <h3 class="font-bold text-lg mb-4 text-[#F97316]">Categories</h3>
-                <ul class="text-sm text-gray-300 space-y-2">
-                    <li>Grocery</li><li>Household Care</li><li>Personal Care</li><li>Baby Care</li>
+                <h4 class="text-orange-500 font-bold mb-4">Categories</h4>
+                <ul class="text-sm space-y-2 text-gray-300">
+                    <li>Grocery</li><li>Household Care</li><li>Personal Care</li>
                 </ul>
             </div>
             <div>
-                <h3 class="font-bold text-lg mb-4 text-[#F97316]">Quick Links</h3>
-                <ul class="text-sm text-gray-300 space-y-2">
-                    <li>Home</li><li>About Us</li><li>Services</li><li>Contact Us</li>
+                <h4 class="text-orange-500 font-bold mb-4">Quick Links</h4>
+                <ul class="text-sm space-y-2 text-gray-300">
+                    <li>Home</li><li>About</li><li>Services</li>
                 </ul>
             </div>
-            <div class="bg-white text-gray-900 p-4 rounded-lg text-sm">
-                <p>📍 Panti, Kushtia, Bangladesh</p>
+            <div class="bg-white text-gray-900 p-5 rounded text-sm">
+                <p>📍 Kushtia, Bangladesh</p>
                 <p>✉ info@exariste.com</p>
                 <p>📞 +880 1713-366224</p>
             </div>
-        </div>
-        <div class="text-center mt-10 pt-6 border-t border-gray-700 text-gray-400 text-sm">
-            © 2026 GLOBAL DISTRIBUTION HOUSE. All rights reserved.
         </div>
     </footer>
 </body>
