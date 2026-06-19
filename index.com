@@ -15,6 +15,7 @@
         <div class="hidden md:flex space-x-8 font-medium">
             <a href="#home" class="hover:text-orange-600">Home</a>
             <a href="#about" class="hover:text-orange-600">About</a>
+            <a href="#stats" class="hover:text-orange-600">Stats</a>
             <a href="#services" class="hover:text-orange-600">Services</a>
             <a href="#contact" class="hover:text-orange-600">Contact</a>
         </div>
@@ -24,29 +25,34 @@
     <header id="home" class="py-20 text-center bg-slate-50">
         <h1 class="text-5xl font-extrabold text-blue-700 mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
         <p class="text-xl text-orange-600 font-semibold mb-6">Connecting Brands, Delivering Excellence.</p>
-        <p class="max-w-2xl mx-auto mb-8 text-gray-600">We bridge leading brands with retailers through a trusted and efficient distribution network, ensuring timely delivery and long-term business partnerships across Bangladesh.</p>
         <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">Become a Partner</button>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 px-6 max-w-5xl mx-auto text-center">
-        <h2 class="text-3xl font-bold mb-6 text-blue-600">Who We Are</h2>
-        <p class="text-gray-700 leading-relaxed">GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh. We connect renowned brands with retailers through a reliable supply chain. Our mission is to ensure timely delivery, quality service, and long-term business partnerships.</p>
+    <!-- Stats Section -->
+    <section id="stats" class="py-16 bg-blue-600 text-white">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div><h3 class="text-4xl font-bold">20+</h3><p>Brand Partners</p></div>
+            <div><h3 class="text-4xl font-bold">500+</h3><p>Retail Shops</p></div>
+            <div><h3 class="text-4xl font-bold">10+</h3><p>Years Exp.</p></div>
+            <div><h3 class="text-4xl font-bold">50k+</h3><p>Deliveries</p></div>
+        </div>
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="py-20 bg-slate-100">
-        <div class="max-w-6xl mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-12 text-blue-600">Our Services</h2>
-            <div class="grid md:grid-cols-2 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="font-bold text-xl mb-2 text-orange-600">Distribution</h3>
-                    <p>Fast and reliable product distribution to retailers.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow">
-                    <h3 class="font-bold text-xl mb-2 text-orange-600">Inventory Management</h3>
-                    <p>Efficient warehouse and stock management.</p>
-                </div>
+    <section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-blue-600">What We Do</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="p-6 border rounded-lg shadow hover:shadow-xl">
+                <h3 class="font-bold text-xl mb-2 text-orange-600">Distribution</h3>
+                <p>Fast and reliable product distribution.</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow hover:shadow-xl">
+                <h3 class="font-bold text-xl mb-2 text-orange-600">Inventory</h3>
+                <p>Efficient warehouse management.</p>
+            </div>
+            <div class="p-6 border rounded-lg shadow hover:shadow-xl">
+                <h3 class="font-bold text-xl mb-2 text-orange-600">Support</h3>
+                <p>Sales and marketing assistance.</p>
             </div>
         </div>
     </section>
@@ -55,9 +61,8 @@
     <footer id="contact" class="bg-slate-900 text-white py-12 text-center">
         <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
         <p>📍 Panti, Kushtia, Bangladesh</p>
-        <p>✉ info@exariste.com</p>
         <p>📞 +880 1713-366224</p>
-        <p class="mt-8 text-gray-400">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</p>
+        <p class="mt-8 text-gray-400">© 2026 GLOBAL DISTRIBUTION HOUSE.</p>
     </footer>
 
     <script src="script.js"></script>
