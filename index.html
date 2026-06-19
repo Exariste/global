@@ -5,76 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Distribution House | Premium Corporate</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { colors: { royal: '#2563EB', navy: '#0F172A', accent: '#F97316' } } } }
+    </script>
 </head>
-<body class="bg-white text-slate-900">
+<body class="bg-white text-navy">
 
     <!-- Navbar -->
-    <nav class="flex justify-between items-center px-6 py-4 bg-white shadow-md sticky top-0 z-50">
+    <nav class="sticky top-0 bg-white shadow-md z-50 px-10 py-4 flex justify-between items-center">
         <img src="20260617_025723.jpg" alt="Logo" class="h-12">
-        <div class="hidden md:flex space-x-6 font-bold text-slate-800">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+        <div class="hidden lg:flex space-x-8 font-bold text-navy">
+            <a href="#home" class="hover:text-royal">Home</a>
+            <a href="#about" class="hover:text-royal">About</a>
+            <a href="#services" class="hover:text-royal">Services</a>
+            <a href="#gallery" class="hover:text-royal">Gallery</a>
+            <a href="#contact" class="hover:text-royal">Contact</a>
         </div>
-        <a href="#partner" class="bg-orange-500 text-white px-5 py-2 rounded font-bold">Become a Partner</a>
+        <a href="#partner" class="bg-accent text-white px-6 py-2 rounded font-bold hover:bg-orange-600">Become a Partner</a>
     </nav>
 
     <!-- Hero Section -->
-    <header id="home" class="relative py-24 bg-blue-900 text-white text-center">
-        <div class="max-w-4xl mx-auto px-6">
-            <h1 class="text-5xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
-            <p class="text-xl mb-8 text-blue-100">Connecting Brands, Delivering Excellence. Reliable supply chain network across Bangladesh.</p>
-            <a href="#services" class="bg-blue-600 px-8 py-3 rounded font-bold hover:bg-blue-700">Explore Services</a>
+    <header id="home" class="relative h-[80vh] flex items-center justify-center text-center bg-navy text-white">
+        <div class="max-w-4xl px-6">
+            <h1 class="text-6xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
+            <p class="text-xl mb-8 text-gray-300">Connecting Brands, Delivering Excellence. We bridge leading brands with retailers through a trusted and efficient distribution network across Bangladesh.</p>
+            <div class="space-x-4">
+                <a href="#partner" class="bg-royal px-8 py-3 rounded font-bold hover:bg-blue-700">Become a Partner</a>
+                <a href="#contact" class="border border-white px-8 py-3 rounded font-bold hover:bg-white hover:text-navy">Contact Us</a>
+            </div>
         </div>
     </header>
 
-    <!-- Why Choose Us -->
-    <section id="about" class="py-20 px-6 max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold text-center mb-12">Why Choose Us?</h2>
-        <div class="grid md:grid-cols-4 gap-6">
-            <div class="p-6 bg-slate-100 rounded text-center">
-                <h3 class="font-bold text-lg mb-2">Timely Delivery</h3>
-                <p class="text-sm text-gray-600">Fast and efficient logistics.</p>
-            </div>
-            <div class="p-6 bg-slate-100 rounded text-center">
-                <h3 class="font-bold text-lg mb-2">Trusted Partner</h3>
-                <p class="text-sm text-gray-600">Strong business relationships.</p>
-            </div>
-            <div class="p-6 bg-slate-100 rounded text-center">
-                <h3 class="font-bold text-lg mb-2">Wide Network</h3>
-                <p class="text-sm text-gray-600">Extensive reach in Bangladesh.</p>
-            </div>
-            <div class="p-6 bg-slate-100 rounded text-center">
-                <h3 class="font-bold text-lg mb-2">Professional</h3>
-                <p class="text-sm text-gray-600">Dedicated expert team.</p>
-            </div>
+    <!-- About Section -->
+    <section id="about" class="py-20 px-10 max-w-6xl mx-auto">
+        <h2 class="text-4xl font-bold text-royal mb-8 text-center">Who We Are</h2>
+        <p class="text-lg text-center leading-relaxed">GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh. We connect renowned brands with retailers through a reliable supply chain. We proudly serve retailers and businesses across multiple regions of Bangladesh with professionalism, integrity, and excellence.</p>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-16 bg-royal text-white text-center">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
+            <div><h3 class="text-4xl font-bold">20+</h3><p>Brand Partners</p></div>
+            <div><h3 class="text-4xl font-bold">500+</h3><p>Retail Shops</p></div>
+            <div><h3 class="text-4xl font-bold">10+</h3><p>Years Experience</p></div>
+            <div><h3 class="text-4xl font-bold">50k+</h3><p>Deliveries</p></div>
         </div>
     </section>
 
-    <!-- Contact Form -->
-    <section id="partner" class="py-20 bg-slate-900 text-white px-6">
-        <div class="max-w-2xl mx-auto">
-            <h2 class="text-3xl font-bold mb-8 text-center">Partner With Us</h2>
-            <form class="space-y-4">
-                <input type="text" placeholder="Company Name" class="w-full p-3 rounded text-slate-900">
-                <input type="email" placeholder="Email Address" class="w-full p-3 rounded text-slate-900">
-                <textarea placeholder="Message" class="w-full p-3 rounded h-32 text-slate-900"></textarea>
-                <button class="w-full bg-orange-500 py-3 rounded font-bold text-lg">Submit Inquiry</button>
-            </form>
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50 px-10">
+        <h2 class="text-4xl font-bold text-royal text-center mb-16">What We Do</h2>
+        <div class="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Distribution</h3><p>Fast and reliable product distribution.</p></div>
+            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Inventory</h3><p>Efficient stock management.</p></div>
+            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Management</h3><p>Strong dealer relationships.</p></div>
+            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Support</h3><p>Sales & marketing growth.</p></div>
         </div>
+    </section>
+
+    <!-- Partner Form -->
+    <section id="partner" class="py-20 px-10 max-w-3xl mx-auto">
+        <h2 class="text-4xl font-bold text-royal mb-10 text-center">Partner With Us</h2>
+        <form class="space-y-4">
+            <input type="text" placeholder="Company Name" class="w-full p-4 border rounded">
+            <input type="text" placeholder="Phone Number" class="w-full p-4 border rounded">
+            <textarea placeholder="Message" class="w-full p-4 border rounded h-32"></textarea>
+            <button class="w-full bg-accent text-white py-4 rounded font-bold text-xl hover:bg-orange-600">Submit Inquiry</button>
+        </form>
     </section>
 
     <!-- Footer -->
-    <footer id="contact" class="py-12 text-center bg-gray-100">
-        <p class="font-bold text-lg">GLOBAL DISTRIBUTION HOUSE</p>
-        <p class="text-gray-600">Panti, Kushtia | 01713-366224</p>
-        <p class="mt-4 text-sm text-gray-500">© 2026 GLOBAL DISTRIBUTION HOUSE.</p>
+    <footer id="contact" class="bg-navy text-white py-12 text-center">
+        <h2 class="text-2xl font-bold mb-4">GLOBAL DISTRIBUTION HOUSE</h2>
+        <p>📍 Panti, Kushtia, Bangladesh</p>
+        <p>📞 01713-366224 | ✉ info@exariste.com</p>
+        <p class="mt-8 text-gray-400">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</p>
     </footer>
 
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/8801713366224" class="fixed bottom-6 right-6 z-50 text-5xl text-green-500">
-        🟢
+    <a href="https://wa.me/8801713366224" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl">
+        <span class="text-3xl font-bold">WhatsApp</span>
     </a>
 </body>
 </html>
