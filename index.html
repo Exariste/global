@@ -1,90 +1,55 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Distribution House | Premium Corporate</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = { theme: { extend: { colors: { royal: '#2563EB', navy: '#0F172A', accent: '#F97316' } } } }
-    </script>
-</head>
-<body class="bg-white text-navy">
-
-    <!-- Navbar -->
-    <nav class="sticky top-0 bg-white shadow-md z-50 px-10 py-4 flex justify-between items-center">
-        <img src="20260617_025723.jpg" alt="Logo" class="h-12">
-        <div class="hidden lg:flex space-x-8 font-bold text-navy">
-            <a href="#home" class="hover:text-royal">Home</a>
-            <a href="#about" class="hover:text-royal">About</a>
-            <a href="#services" class="hover:text-royal">Services</a>
-            <a href="#gallery" class="hover:text-royal">Gallery</a>
-            <a href="#contact" class="hover:text-royal">Contact</a>
-        </div>
-        <a href="#partner" class="bg-accent text-white px-6 py-2 rounded font-bold hover:bg-orange-600">Become a Partner</a>
-    </nav>
-
-    <!-- Hero Section -->
-    <header id="home" class="relative h-[80vh] flex items-center justify-center text-center bg-navy text-white">
-        <div class="max-w-4xl px-6">
-            <h1 class="text-6xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
-            <p class="text-xl mb-8 text-gray-300">Connecting Brands, Delivering Excellence. We bridge leading brands with retailers through a trusted and efficient distribution network across Bangladesh.</p>
-            <div class="space-x-4">
-                <a href="#partner" class="bg-royal px-8 py-3 rounded font-bold hover:bg-blue-700">Become a Partner</a>
-                <a href="#contact" class="border border-white px-8 py-3 rounded font-bold hover:bg-white hover:text-navy">Contact Us</a>
+<!-- Footer Section -->
+<footer class="bg-[#0F172A] text-white py-12 px-6">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+        <!-- Column 1: Company Info -->
+        <div>
+            <img src="20260617_025723.jpg" alt="Logo" class="h-16 mb-4">
+            <p class="text-sm text-gray-300 mb-4">
+                GLOBAL DISTRIBUTION HOUSE বিশ্বাসযোগ্যতা এবং গুণগত মান বজায় রেখে পণ্য পৌঁছে দিচ্ছে প্রতিটি ঘরে।
+            </p>
+            <div class="flex space-x-3">
+                <a href="#" class="bg-blue-600 p-2 rounded">f</a>
+                <a href="#" class="bg-blue-600 p-2 rounded">in</a>
+                <a href="#" class="bg-blue-600 p-2 rounded">X</a>
             </div>
         </div>
-    </header>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 px-10 max-w-6xl mx-auto">
-        <h2 class="text-4xl font-bold text-royal mb-8 text-center">Who We Are</h2>
-        <p class="text-lg text-center leading-relaxed">GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh. We connect renowned brands with retailers through a reliable supply chain. We proudly serve retailers and businesses across multiple regions of Bangladesh with professionalism, integrity, and excellence.</p>
-    </section>
-
-    <!-- Statistics Section -->
-    <section class="py-16 bg-royal text-white text-center">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto px-6">
-            <div><h3 class="text-4xl font-bold">20+</h3><p>Brand Partners</p></div>
-            <div><h3 class="text-4xl font-bold">500+</h3><p>Retail Shops</p></div>
-            <div><h3 class="text-4xl font-bold">10+</h3><p>Years Experience</p></div>
-            <div><h3 class="text-4xl font-bold">50k+</h3><p>Deliveries</p></div>
+        <!-- Column 2: Categories -->
+        <div>
+            <h3 class="font-bold text-lg mb-4 text-[#F97316]">Categories</h3>
+            <ul class="space-y-2 text-sm text-gray-300">
+                <li>Grocery</li>
+                <li>Household Care</li>
+                <li>Personal Care</li>
+                <li>Baby Care</li>
+                <li>Livestock & Poultry</li>
+            </ul>
         </div>
-    </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-20 bg-gray-50 px-10">
-        <h2 class="text-4xl font-bold text-royal text-center mb-16">What We Do</h2>
-        <div class="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
-            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Distribution</h3><p>Fast and reliable product distribution.</p></div>
-            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Inventory</h3><p>Efficient stock management.</p></div>
-            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Management</h3><p>Strong dealer relationships.</p></div>
-            <div class="p-6 bg-white shadow-lg rounded"><h3 class="font-bold text-xl mb-2 text-royal">Support</h3><p>Sales & marketing growth.</p></div>
+        <!-- Column 3: Quick Links -->
+        <div>
+            <h3 class="font-bold text-lg mb-4 text-[#F97316]">Quick Links</h3>
+            <ul class="space-y-2 text-sm text-gray-300">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </div>
-    </section>
 
-    <!-- Partner Form -->
-    <section id="partner" class="py-20 px-10 max-w-3xl mx-auto">
-        <h2 class="text-4xl font-bold text-royal mb-10 text-center">Partner With Us</h2>
-        <form class="space-y-4">
-            <input type="text" placeholder="Company Name" class="w-full p-4 border rounded">
-            <input type="text" placeholder="Phone Number" class="w-full p-4 border rounded">
-            <textarea placeholder="Message" class="w-full p-4 border rounded h-32"></textarea>
-            <button class="w-full bg-accent text-white py-4 rounded font-bold text-xl hover:bg-orange-600">Submit Inquiry</button>
-        </form>
-    </section>
+        <!-- Column 4: Contact Info -->
+        <div class="bg-white text-navy p-4 rounded-lg">
+            <p class="text-xs mb-2">📍 Panti, Kushtia, Bangladesh</p>
+            <p class="text-xs mb-2">✉ info@exariste.com</p>
+            <p class="text-xs mb-2">📞 +880 1713-366224</p>
+            <p class="text-xs">🟢 +880 1713-366224</p>
+        </div>
+    </div>
 
-    <!-- Footer -->
-    <footer id="contact" class="bg-navy text-white py-12 text-center">
-        <h2 class="text-2xl font-bold mb-4">GLOBAL DISTRIBUTION HOUSE</h2>
-        <p>📍 Panti, Kushtia, Bangladesh</p>
-        <p>📞 01713-366224 | ✉ info@exariste.com</p>
-        <p class="mt-8 text-gray-400">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</p>
-    </footer>
-
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/8801713366224" class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl">
-        <span class="text-3xl font-bold">WhatsApp</span>
-    </a>
-</body>
-</html>
+    <!-- Bottom Footer -->
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400 flex justify-between">
+        <p>© 2026 GLOBAL DISTRIBUTION HOUSE. All rights reserved.</p>
+        <p>Developed by GDH Team</p>
+    </div>
+</footer>
