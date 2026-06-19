@@ -21,15 +21,44 @@
     </nav>
 
     <!-- Hero Section -->
-    <header id="home" class="h-screen flex flex-col justify-center items-center text-center px-6 bg-slate-50">
-        <h1 class="text-6xl font-extrabold text-blue-700 mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
-        <p class="text-2xl text-orange-600 font-semibold mb-6">Connecting Brands, Delivering Excellence.</p>
-        <p class="max-w-3xl text-gray-600 mb-10">We bridge leading brands with retailers through a trusted and efficient distribution network, ensuring timely delivery and long-term business partnerships across Bangladesh.</p>
-        <div class="space-x-4">
-            <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">Become a Partner</button>
-            <button class="border-2 border-blue-600 text-blue-600 px-8 py-3 rounded-lg font-bold hover:bg-blue-50">Contact Us</button>
-        </div>
+    <header id="home" class="py-20 text-center bg-slate-50">
+        <h1 class="text-5xl font-extrabold text-blue-700 mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
+        <p class="text-xl text-orange-600 font-semibold mb-6">Connecting Brands, Delivering Excellence.</p>
+        <p class="max-w-2xl mx-auto mb-8 text-gray-600">We bridge leading brands with retailers through a trusted and efficient distribution network, ensuring timely delivery and long-term business partnerships across Bangladesh.</p>
+        <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700">Become a Partner</button>
     </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6 max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6 text-blue-600">Who We Are</h2>
+        <p class="text-gray-700 leading-relaxed">GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh. We connect renowned brands with retailers through a reliable supply chain. Our mission is to ensure timely delivery, quality service, and long-term business partnerships.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-slate-100">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-12 text-blue-600">Our Services</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="font-bold text-xl mb-2 text-orange-600">Distribution</h3>
+                    <p>Fast and reliable product distribution to retailers.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="font-bold text-xl mb-2 text-orange-600">Inventory Management</h3>
+                    <p>Efficient warehouse and stock management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="bg-slate-900 text-white py-12 text-center">
+        <h2 class="text-2xl font-bold mb-4">Contact Us</h2>
+        <p>📍 Panti, Kushtia, Bangladesh</p>
+        <p>✉ info@exariste.com</p>
+        <p>📞 +880 1713-366224</p>
+        <p class="mt-8 text-gray-400">© 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
