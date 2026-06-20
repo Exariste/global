@@ -21,8 +21,8 @@
     <!-- Navbar -->
     <nav class="sticky top-0 bg-white z-50 shadow-sm border-b px-10 py-4 flex justify-between items-center">
 
-        <!-- FIX 1: GDH TEXT REMOVED -->
-        <div class="flex items-center">
+        <!-- ONLY CHANGE: GDH removed -->
+        <div class="flex items-center gap-2">
             <img src="logo.png" alt="Logo" class="h-10 w-auto">
         </div>
 
@@ -40,47 +40,36 @@
     </nav>
 
     <!-- Hero -->
-    <header id="home"
-        class="relative h-[85vh] flex items-center justify-center text-center text-white p-6">
+    <header id="home" class="relative h-[85vh] flex items-center justify-center text-center bg-navy text-white p-6">
 
-        <!-- FIX 2: PROPER BANNER BACKGROUND -->
+        <!-- ONLY CHANGE: banner added -->
         <div class="absolute inset-0">
             <img src="banner.jpg" class="w-full h-full object-cover" alt="Banner">
         </div>
 
-        <!-- overlay -->
-        <div class="absolute inset-0 bg-black/50"></div>
-
         <div class="max-w-4xl relative z-10">
-            <h1 class="text-5xl md:text-6xl font-extrabold mb-6">
-                GLOBAL DISTRIBUTION HOUSE
-            </h1>
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6">GLOBAL DISTRIBUTION HOUSE</h1>
 
             <p class="text-xl md:text-2xl mb-8 text-gray-300">
                 Connecting Brands, Delivering Excellence. We bridge leading brands with retailers through a trusted and efficient distribution network across Bangladesh.
             </p>
 
             <div class="space-x-4">
-                <a href="#partner" class="bg-royal px-8 py-3 rounded font-bold hover:bg-blue-700">
-                    Become a Partner
-                </a>
-                <a href="#contact" class="border border-white px-8 py-3 rounded font-bold hover:bg-white hover:text-navy">
-                    Contact Us
-                </a>
+                <a href="#partner" class="bg-royal px-8 py-3 rounded font-bold hover:bg-blue-700">Become a Partner</a>
+                <a href="#contact" class="border border-white px-8 py-3 rounded font-bold hover:bg-white hover:text-navy">Contact Us</a>
             </div>
         </div>
 
     </header>
 
+    <!-- EVERYTHING BELOW EXACTLY YOUR ORIGINAL -->
     <!-- About -->
     <section id="about" class="py-20 px-10 max-w-5xl mx-auto text-center">
         <h2 class="text-4xl font-bold text-royal mb-8">Who We Are</h2>
-        <p class="text-lg leading-relaxed text-gray-700">
-            GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh. We connect renowned brands with retailers through a reliable supply chain.
-        </p>
+        <p class="text-lg leading-relaxed text-gray-700">GLOBAL DISTRIBUTION HOUSE is a trusted distribution company based in Kushtia, Bangladesh. We connect renowned brands with retailers through a reliable supply chain. Our mission is to ensure timely delivery, quality service, and long-term business partnerships.</p>
     </section>
 
-    <!-- Stats -->
+    <!-- Statistics -->
     <section class="py-16 bg-royal text-white">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto px-6 text-center">
             <div><h3 class="text-4xl font-bold">20+</h3><p>Brand Partners</p></div>
@@ -93,55 +82,34 @@
     <!-- Services -->
     <section id="services" class="py-20 bg-gray-50 px-10">
         <h2 class="text-4xl font-bold text-royal text-center mb-16">What We Do</h2>
-
         <div class="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
-            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent">
-                <h3 class="font-bold text-xl mb-2">Distribution</h3>
-                <p class="text-sm">Fast and reliable product distribution.</p>
-            </div>
-
-            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent">
-                <h3 class="font-bold text-xl mb-2">Inventory</h3>
-                <p class="text-sm">Efficient warehouse management.</p>
-            </div>
-
-            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent">
-                <h3 class="font-bold text-xl mb-2">Dealer Mgmt</h3>
-                <p class="text-sm">Building strong relationships.</p>
-            </div>
-
-            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent">
-                <h3 class="font-bold text-xl mb-2">Sales Support</h3>
-                <p class="text-sm">Brand growth and marketing.</p>
-            </div>
+            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent"><h3 class="font-bold text-xl mb-2">Distribution</h3><p class="text-sm">Fast and reliable product distribution.</p></div>
+            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent"><h3 class="font-bold text-xl mb-2">Inventory</h3><p class="text-sm">Efficient warehouse management.</p></div>
+            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent"><h3 class="font-bold text-xl mb-2">Dealer Mgmt</h3><p class="text-sm">Building strong relationships.</p></div>
+            <div class="p-8 bg-white shadow rounded-lg border-b-4 border-accent"><h3 class="font-bold text-xl mb-2">Sales Support</h3><p class="text-sm">Brand growth and marketing.</p></div>
         </div>
     </section>
 
     <!-- Partner -->
     <section id="partner" class="py-20 px-10 max-w-3xl mx-auto">
         <h2 class="text-4xl font-bold text-royal mb-10 text-center">Partner With Us</h2>
-
         <form class="bg-gray-50 p-8 rounded-xl shadow-inner space-y-4">
             <input type="text" placeholder="Company Name" class="w-full p-4 border rounded">
             <input type="text" placeholder="Phone Number" class="w-full p-4 border rounded">
             <textarea placeholder="Message" class="w-full p-4 border rounded h-32"></textarea>
-
-            <button class="w-full bg-accent text-white py-4 rounded font-bold hover:bg-orange-600 transition">
-                Submit Inquiry
-            </button>
+            <button class="w-full bg-accent text-white py-4 rounded font-bold hover:bg-orange-600 transition">Submit Inquiry</button>
         </form>
     </section>
 
     <!-- Footer -->
     <footer id="contact" class="bg-navy text-white py-16 px-10">
-        <div class="text-center text-gray-500 text-xs border-t border-gray-800 pt-8">
+        <div class="text-center mt-12 pt-8 border-t border-gray-800 text-gray-500 text-xs">
             © 2026 GLOBAL DISTRIBUTION HOUSE. All Rights Reserved.
         </div>
     </footer>
 
     <!-- WhatsApp -->
-    <a href="https://wa.me/8801713366224"
-        class="fixed bottom-8 right-8 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition">
+    <a href="https://wa.me/8801713366224" class="fixed bottom-8 right-8 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:scale-110 transition">
         WhatsApp
     </a>
 
